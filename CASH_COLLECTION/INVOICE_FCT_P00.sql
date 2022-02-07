@@ -4,7 +4,7 @@
 #### COPYRIGHTS : TBD
 #### FILE NAME : INVOICE_FCT_P00.SQL  
 #### FILE TYPE : SQL FILE
-#### APPLICATION : TOBI 
+#### APPICATION : TOBI 
 #### BUSINESS FUNCTION : THIS FILE HAS BEEN CREATED TO PERFORM INSERT/UPDATE OPERATION INTO INVOICE_FCT TABLE 
 #### AUTHOR(S) :                                                                                        
 ####                    :   
