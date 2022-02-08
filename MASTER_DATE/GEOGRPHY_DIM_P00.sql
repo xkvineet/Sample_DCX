@@ -8,7 +8,7 @@ FILE NAME: GEOGRAPHY_DIM_P00.SQL
 -- 20210518 DRAFT CODE
 ---------------------------- 
 	
------------------------------------UPDATE GEOGRAPHY_DIM SQL-------------------------------------------
+-----------------------------------UPDATE GEOGRAPHY_DIM FILE SQL-------------------------------------------
 UPDATE %TOBI_MDM%.GEOGRAPHY_DIM --DB NAME TO BE PICKED FROM PYTHON PARAMETER
 FROM(
 SELECT 
