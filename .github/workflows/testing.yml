@@ -14,4 +14,5 @@ jobs:
       - name: sync dev to QA 
         run: git merge DEV
              git commit
+             git push origin QA
  
