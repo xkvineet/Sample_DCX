@@ -1,4 +1,4 @@
-\FILE NAME: PARTY_DIM_P00.SQL
+/* FILE NAME: PARTY_DIM_P00.SQL
 --
 -- DESCRIPTION:  THE SCRIPT HAS BEEN CREATED TO INSERT/UPDATE DATA INTO PARTY_DIM 
 -- AUTHOR(S):
@@ -6,7 +6,7 @@
 --
 -- LATEST REVISION:
 -- 20210527 DRAFT CODE
----------------------------- 
+---------------------------- */
 	
  -----------------------------------UPDATE PARTY_DIM SQL------------------------------------------- 
  
