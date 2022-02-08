@@ -1,4 +1,4 @@
---FILE NAME: PRODUCT_DIM_P00.sql
+/*FILE NAME: PRODUCT_DIM_P00.sql
 --
 -- DESCRIPTION:  THE SCRIPT HAS BEEN CREATED TO INSERT/UPDATE DATA INTO PRODUCT_DIM
 -- AUTHOR(S):
@@ -6,7 +6,7 @@
 --
 -- LATEST REVISION:
 -- 20210514 DRAFT CODE
-----------------------------
+----------------------------*/
 
 /*-----------------------------------UPDATE PRODUCT_DIM SQL-------------------------------------------*/
 
