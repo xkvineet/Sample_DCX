@@ -18,4 +18,5 @@ jobs:
           git fetch                         # fetch branches
           git checkout PRD       # checkout to your branch
           git pull origin QA
+           git diff-index --quiet HEAD ||  git commit -am "deploy files" 
          
