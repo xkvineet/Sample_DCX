@@ -1,9 +1,10 @@
 name: Copy folder to other branch
 
-on: 
- push:
-  branch:
-	-QA
+on:
+  push:
+    # Sequence of patterns matched against refs/heads
+    branches:    
+      - QA
 
 jobs:
   copy:
