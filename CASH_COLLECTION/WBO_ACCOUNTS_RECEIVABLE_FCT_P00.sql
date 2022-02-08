@@ -1,5 +1,5 @@
------------------------------------ACCOUNTS_RECEIVABLE_FCT_P00.SQL-------------------------------------------------
-/*  
+-----------------------------------ACCOUNTS_RECEIVABLE_FACT_P00.SQL-------------------------------------------------
+/* 
 #### COPYRIGHTS			: TBD
 #### FILE NAME			: WBO_ACCOUNTS_RECEIVABLE_FCT_P00.SQL  
 #### FILE TYPE			: SQL FILE
