@@ -1,9 +1,9 @@
 name: Sync to S3 bucket
 on:
-  pull_request:
+  push:
     branches:
       - main 
-      - 'DEV'
+      - 'QA'
       
 jobs:
   sync:
