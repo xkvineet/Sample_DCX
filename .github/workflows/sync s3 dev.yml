@@ -10,14 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - uses: jakejarvis/s3-sync-action@master
         with:
-          python-version: '3.7'
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install awscli
-      - run: aws s3 cp Sample_DCX/ .github/sample.txt s3://tobi-etl-dev/source/
+          args: --acl public-read --follow-symlinks --delete 
         env:
+          AWS_S3_BUCKET: ${{ secrets.STAGING_NUDGE_ASSET_BUCKET }}
           AWS_ACCESS_KEY_ID: AKIARJZZSGSWHCJCOPM4 
           AWS_SECRET_ACCESS_KEY: xD7zQ+B6Ycn1okIvTTJgDr8rzI26V8SKTwI0lw/K
+          SOURCE_DIR: 'Sample_DCX/ .github/sample.txt' 
+          destination_dir: 'source/'
