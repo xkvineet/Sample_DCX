@@ -1,4 +1,4 @@
-name: Upload a folder to S3
+name: Upload a folder to S3 DEV
 
 on:
   push:
