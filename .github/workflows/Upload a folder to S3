@@ -3,8 +3,8 @@ name: Upload a folder to S3 DEV
 on:
   push:
     branches:
-    - main
-    - 'QA'
+      - main 
+      - 'QA'
 
 jobs:
   deploy:
