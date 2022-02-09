@@ -1,10 +1,10 @@
- --FILE NAME: INVOICE_DET_FCT_P00.SQL
+/* --FILE NAME: INVOICE_DET_FCT_P00.SQL
 --
 -- DESCRIPTION:  THE SCRIPT HAS BEEN CREATED TO INSERT DATA INTO INVOICE_FCT  & INVOICE_FCT_MV TABLES
 -- AUTHOR(S):KANAPARTHI VINEETHA
 -- LATEST REVISION:
 -- 09 DRAFT CODE
-----------------------------
+----------------------------*/
 
 
 /*------------------------------- INSERT INVOICE_FCT ----------------------------------------------------*/
