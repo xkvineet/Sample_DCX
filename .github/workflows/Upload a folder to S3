@@ -1,0 +1,22 @@
+name: Upload a folder to S3
+
+on:
+  push:
+    branches:
+    - main
+    - 'QA'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    
+    - name: Copy a folder to s3
+      uses: prewk/s3-cp-action@v2
+      with:
+        aws_access_key_id: AKIARJZZSGSWHCJCOPM4 
+        aws_secret_access_key: xD7zQ+B6Ycn1okIvTTJgDr8rzI26V8SKTwI0lw/K
+        source: 'Sample_DCX/ .github/sample.txt'
+        dest: 's3://tobi-etl-dev/source/'
+        flags: --recursive
