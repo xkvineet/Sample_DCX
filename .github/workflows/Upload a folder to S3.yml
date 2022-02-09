@@ -15,8 +15,8 @@ jobs:
     - name: Copy a folder to s3
       uses: prewk/s3-cp-action@v2
       with:
-        aws_access_key_id: AKIARJZZSGSWHCJCOPM4 
-        aws_secret_access_key: xD7zQ+B6Ycn1okIvTTJgDr8rzI26V8SKTwI0lw/K
+        aws_access_key_id:
+        aws_secret_access_key: 
         source: 'Sample_DCX/ .github/sample.txt'
         dest: 's3://tobi-etl-dev/source'
         #flags: --recursive
