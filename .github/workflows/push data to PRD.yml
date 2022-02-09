@@ -1,10 +1,10 @@
 name: Copy folder to other branch
 
-#on: [push] 
-on:
-  push:
-    branches:
-      - 'QA'
+on: [push]
+#on:
+  #push:
+   # branches:
+      #- 'QA'
           
 
 jobs:
