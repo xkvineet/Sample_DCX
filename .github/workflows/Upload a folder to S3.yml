@@ -18,5 +18,5 @@ jobs:
         aws_access_key_id: AKIARJZZSGSWHCJCOPM4 
         aws_secret_access_key: xD7zQ+B6Ycn1okIvTTJgDr8rzI26V8SKTwI0lw/K
         source: 'Sample_DCX/ .github/sample.txt'
-        dest: 's3://tobi-etl-dev/source/'
+        dest: 's3://tobi-etl-dev/source'
         #flags: --recursive
