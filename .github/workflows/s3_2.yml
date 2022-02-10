@@ -12,7 +12,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install awscli
-      - run: aws s3 sync Sample_DCX/ .github/sample.txt s3://vijaya-test-dev2/source/ --region us-west-1 --cache-control max-age=0 --acl public-read --delete
+      - run: aws s3 sync Sample_DCX/ .github/sample.txt s3://vijaya-test-dev2/source/sample.txt --region us-west-1 --cache-control max-age=0 --acl public-read --delete
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
