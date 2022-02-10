@@ -18,5 +18,5 @@ jobs:
        # aws_access_key_id:
        # aws_secret_access_key: 
         source: 'Sample_DCX/ .github/sample.txt'
-        dest: 'vijaya-test-dev/test/ '
+        dest: 's3://vijaya-test-dev/test/'
         flags: --recursive
