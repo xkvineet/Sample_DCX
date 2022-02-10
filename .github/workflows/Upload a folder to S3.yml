@@ -5,7 +5,6 @@ on:
     branches:
       - main 
       - 'QA'
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -15,9 +14,9 @@ jobs:
     - name: Copy a folder to s3
       uses: prewk/s3-cp-action@v2
       with:
-       # aws_access_key_id:
-       # aws_secret_access_key: 
-        source: 'Sample_DCX/ .github/sample.txt'
-        dest: 's3://vijaya-test-dev/test'
-        # dest: 's3://vijaya-test-dev/test/'
-        # flags: --recursive
+        aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        source: './Sample_DCX/ .github/MASTER_DATA'
+        dest: 's3://vijaya-test-dev2/source/'
+        flags: --recursive
+
