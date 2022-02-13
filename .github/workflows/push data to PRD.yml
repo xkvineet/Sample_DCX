@@ -17,7 +17,7 @@ jobs:
       - name: copy
     
         run: |
-          files=$(find $SRC_FOLDER_PATH -type f) # get the file list
+          #files=$(find $SRC_FOLDER_PATH -type f) # get the file list
           git config --global user.name 'vini'
           git config --global user.email 'kanaparthivineetha30@gmail.com'
           git fetch                         # fetch branches
